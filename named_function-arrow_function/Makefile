@@ -20,7 +20,11 @@ lint: node_modules
 clean:
 	rm -rf node_modules
 
-node_modules: package.json
+node_modules: init
 	npm install
 
-.PHONY: node_modules
+init: .
+	cp ../package.json .
+	cp ../.eslintrc.json .
+
+.PHONY: init

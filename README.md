@@ -3,11 +3,22 @@
 ## How to push a test case
 
 1. Create a new directory using the rule `foo-bar` or `function_foo-function_bar`
-2. Copy package.json and .eslintrc.json from previous example and change as needed.
-3. Create benchmark.js file and add your bench code.
-4. Create a prof-foo.js and prof-bar.js and add replicate the bench code from step 2.
-using as comparision the same function call.
-5. Create a Makefile with content like this (please see the notes):
+2. Create benchmark.js file and add your bench code.
+3. Create a prof-foo.js and prof-bar.js and replicate the bench code from step 2.
+using as comparision, the same function call, like this:
+
+```
+exports.compare = {
+  'arrow1': function () {
+    foo(1);
+  },
+  'arrow2': function () {
+    foo(1);
+  }
+};
+```
+
+4. Create a Makefile with content like this (please see the notes):
 
 ```
 bench: lint
