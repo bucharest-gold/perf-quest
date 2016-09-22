@@ -1,0 +1,23 @@
+prototype
+Raw:
+ > 165601.3986013986
+ > 162752.24775224776
+ > 166715.2847152847
+ > 166374.62537462538
+Average (mean) 165360.8891108891
+
+class
+Raw:
+ > 164814.18581418582
+ > 164517.4825174825
+ > 163859.14085914087
+ > 164455.54445554444
+Average (mean) 164411.58841158843
+
+Winner: prototype
+Compared with next highest (class), it's:
+0.57% faster
+1.01 times as fast
+0 order(s) of magnitude faster
+BASICALLY THE SAME
+
