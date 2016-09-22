@@ -2,9 +2,9 @@
 
 ## How to push a test case
 
-1. Create a new directory using the rule `foo-bar` or `function_foo-function_bar`
-2. Create benchmark.js file and add your bench code.
-3. Create a prof-foo.js and prof-bar.js and replicate the bench code from step 2.
+- Create a new directory using the rule `foo-bar` or `function_foo-function_bar`
+- Create benchmark.js file and add your bench code.
+- Create a prof-foo.js and prof-bar.js and replicate the bench code from step 2.
 using as comparision, the same function call, like this:
 
 ```
@@ -18,7 +18,7 @@ exports.compare = {
 };
 ```
 
-4. Create a Makefile with content like this (please see the notes):
+- Create a Makefile with content like this (please see the notes):
 
 ```
 bench: lint
