@@ -1,0 +1,19 @@
+{
+  "name": "named_function-arrow_function",
+  "version": "0.0.1",
+  "description": "Comparison between an arrow function and a named function",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "benchmark": "node benchmark.js"
+  },
+  "devDependencies": {
+    "bench": "^0.3.6",
+    "eslint": "^3.3.1",
+    "eslint-config-semistandard": "^7.0.0-beta.0",
+    "eslint-config-standard": "^6.0.0",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-react": "^6.1.2",
+    "eslint-plugin-standard": "^2.0.0"
+  }
+}
