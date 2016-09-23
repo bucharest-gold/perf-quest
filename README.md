@@ -1,6 +1,11 @@
 # perf-quest
 
-## How to push a test case
+## Results
+
+- [Class and prototype](class-prototype/#readme)
+- [Named function and arrow function](named_function-arrow_function/#readme)
+
+### How to push a test case
 
 - Create a new directory using the rule `foo-bar` or `function_foo-function_bar`
 - Create benchmark.js file and add your bench code.
@@ -18,37 +23,4 @@ exports.compare = {
 };
 ```
 
-- Create a Makefile with content like this (please see the notes):
-
-```
-bench: lint
-	npm run benchmark > out.txt
-	npm run benchmark > out.txt
-	npm run benchmark > out.txt
-	tail -n 23 out.txt > bench.txt
-	rm out.txt
-	node --prof prof-foo.js > /dev/null <--Here you need to add your prof-foo.js
-	node --prof-process *.log > out.txt
-	grep -A 5 "Summary" -R out.txt > tick-foo.txt <--Here you name the file like tick-foo.txt
-	rm *.log
-	rm out.txt
-	node --prof prof-bar.js > /dev/null <--Here you need to add your prof-bar.js
-	node --prof-process *.log > out.txt
-	grep -A 5 "Summary" -R out.txt > tick-bar.txt <--Here you name the file like tick-bar.txt
-	rm *.log
-	rm out.txt
-lint: node_modules
-	npm run lint
-
-clean:
-	rm -rf node_modules
-
-node_modules: init
-	npm install
-
-init: .
-	cp ../package.json .
-	cp ../.eslintrc.json .
-
-.PHONY: init
-```
+- Copy Makefile.example from the root directory and change for your needs.
