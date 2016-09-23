@@ -24,3 +24,4 @@ exports.compare = {
 ```
 
 - Copy Makefile.example from the root directory and change for your needs.
+- Add the test case on Makefile located on project root directory.
