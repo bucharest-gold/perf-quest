@@ -4,7 +4,7 @@
 
 - [Class and prototype](class-prototype/#readme)
 - [Named function and arrow function](named_function-arrow_function/#readme)
-
+- [Hidden class and No extra hidden class](hidden_class-no_extra_hidden_class/#readme)
 ### How to push a test case
 
 - Create a new directory using the rule `foo-bar` or `function_foo-function_bar`
