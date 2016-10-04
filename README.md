@@ -3,6 +3,7 @@
 ## Results
 
 - [Class and prototype](class-prototype/#readme)
+- [Class and Classless](class-classless/#readme)
 - [Named function and arrow function](named_function-arrow_function/#readme)
 - [Hidden class and No extra hidden class](hidden_class-no_extra_hidden_class/#readme)
 - [forEach and for](foreach-for/#readme)
