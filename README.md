@@ -6,6 +6,7 @@
 - [Named function and arrow function](named_function-arrow_function/#readme)
 - [Hidden class and No extra hidden class](hidden_class-no_extra_hidden_class/#readme)
 - [forEach and for](foreach-for/#readme)
+- [filter and filter by hand](filter-filter_by_hand/#readme)
 
 ### How to push a test case
 
