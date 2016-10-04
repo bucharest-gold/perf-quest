@@ -8,6 +8,7 @@
 - [forEach and for](foreach-for/#readme)
 - [filter and filter by hand](filter-filter_by_hand/#readme)
 - [map and map by hand](map-map_by_hand/#readme)
+- [reduce and reduce by hand](reduce-reduce_by_hand/#readme)
 
 ### How to push a test case
 

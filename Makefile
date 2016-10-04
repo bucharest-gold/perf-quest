@@ -5,3 +5,4 @@ all: .
 	make -C foreach-for
 	make -C filter-filter_by_hand
 	make -C map-map_by_hand
+	make -C reduce-reduce_by_hand
