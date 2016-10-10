@@ -10,6 +10,7 @@
 - [filter and filter by hand](filter-filter_by_hand/#readme)
 - [map and map by hand](map-map_by_hand/#readme)
 - [reduce and reduce by hand](reduce-reduce_by_hand/#readme)
+- [Function expression and function statement](function_expression-function_statement/#readme)
 
 ### How to push a test case
 
@@ -30,5 +31,6 @@ exports.compare = {
 ```
 
 - Copy Makefile.example from the root directory and change for your needs.
+- Type `make` inside your test case directory.
 - Add the test case on Makefile located on project root directory.
 - To run all the tests type `make` from project root directory.

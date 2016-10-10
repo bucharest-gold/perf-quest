@@ -7,3 +7,4 @@ all: .
 	make -C filter-filter_by_hand
 	make -C map-map_by_hand
 	make -C reduce-reduce_by_hand
+	make -C function_expression-function_statement
