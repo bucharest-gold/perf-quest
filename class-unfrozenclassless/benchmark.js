@@ -1,8 +1,8 @@
 'use strict';
 
 class Game {
-  constructor () {
-    this.score = 0;
+  constructor (score) {
+    this.score = score;
   }
 
   play () {
@@ -11,24 +11,24 @@ class Game {
   }
 }
 
-const Gamee = function () {
-  let score = 0;
+function gamee (s) {
+  let score = s;
   const play = function () {
     score = score + 1;
     return score;
   };
 
   return {
-    play: play
+    play
   };
-};
+}
 
 exports.compare = {
   'class': function () {
-    new Game().play();
+    new Game(1).play();
   },
-  'module': function () {
-    new Gamee().play();
+  'classless': function () {
+    gamee(1).play();
   }
 };
 

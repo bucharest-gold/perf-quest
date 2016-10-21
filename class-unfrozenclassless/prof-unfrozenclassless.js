@@ -1,23 +1,23 @@
 'use strict';
 
-const Gamee = function () {
-  let score = 0;
+function gamee (s) {
+  let score = s;
   const play = function () {
     score = score + 1;
     return score;
   };
 
   return {
-    play: play
+    play
   };
-};
+}
 
 exports.compare = {
-  'module1': function () {
-    new Gamee().play();
+  'classless1': function () {
+    gamee(1).play();
   },
-  'module2': function () {
-    new Gamee().play();
+  'classless2': function () {
+    gamee(1).play();
   }
 };
 

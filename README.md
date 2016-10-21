@@ -3,6 +3,7 @@
 ## Results
 
 - [Class and Classless](class-classless/#readme)
+- [Class and 'UnfrozenClassless'](class-unfrozenclassless/#readme)
 - [Class and module](class-module/#readme)
 - [Class and prototype](class-prototype/#readme)
 - [Named function and arrow function](named_function-arrow_function/#readme)
