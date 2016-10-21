@@ -2,8 +2,9 @@
 
 ## Results
 
-- [Class and prototype](class-prototype/#readme)
 - [Class and Classless](class-classless/#readme)
+- [Class and module](class-module/#readme)
+- [Class and prototype](class-prototype/#readme)
 - [Named function and arrow function](named_function-arrow_function/#readme)
 - [Hidden class and No extra hidden class](hidden_class-no_extra_hidden_class/#readme)
 - [forEach and for](foreach-for/#readme)
@@ -30,7 +31,7 @@ exports.compare = {
 };
 ```
 
-- Copy Makefile.example from the root directory and change for your needs.
+- Copy Makefile.example from the root directory, rename it to Makefile and change for your needs.
 - Type `make` inside your test case directory.
 - Add the test case on Makefile located on project root directory.
 - To run all the tests type `make` from project root directory.
