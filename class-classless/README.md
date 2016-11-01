@@ -3,25 +3,25 @@
 ```
 class
 Raw:
- > 111474.52547452548
- > 110513.48651348651
- > 114226.77322677322
- > 95249.75024975024
-Average (mean) 107866.13386613387
+ > 155278.7212787213
+ > 129457.54245754245
+ > 146598.4015984016
+ > 128271.72827172827
+Average (mean) 139901.5984015984
 
 classless
 Raw:
- > 8287.712287712287
- > 8059.94005994006
- > 8194.805194805194
- > 7755.244755244756
-Average (mean) 8074.425574425574
+ > 12363.636363636364
+ > 10737.262737262738
+ > 11776.223776223776
+ > 11903.096903096903
+Average (mean) 11695.054945054944
 
 Winner: class
 Compared with next highest (classless), it's:
-92.51% faster
-13.36 times as fast
-1.13 order(s) of magnitude faster
+91.64% faster
+11.96 times as fast
+1.08 order(s) of magnitude faster
 A LOT FASTER
 
 ```
@@ -29,10 +29,10 @@ A LOT FASTER
 ## Benchmark 2
  
 ```
-class x 16,304,025 ops/sec ±1.24% (87 runs sampled)
-classless x 5,977,324 ops/sec ±0.63% (94 runs sampled)
+class x 104,650,875 ops/sec ±1.37% (91 runs sampled)
+classless x 11,575,987 ops/sec ±0.49% (90 runs sampled)
 Fastest is: class
-[Node.js 4.5.0 on Linux 64-bit]
+[Node.js 6.9.1 on Linux 64-bit]
 ```
  
 ## Profile summary
@@ -41,19 +41,19 @@ Tick-class
 ```
  [Summary]:
    ticks  total  nonlib   name
-   6472   68.5%   87.2%  JavaScript
-    950   10.1%   12.8%  C++
-    274    2.9%    3.7%  GC
-   2026   21.4%          Shared libraries
+   6311   66.3%   83.9%  JavaScript
+    452    4.7%    6.0%  C++
+      5    0.1%    0.1%  GC
+   1998   21.0%          Shared libraries
 ```
  
 Tick-classless
 ```
  [Summary]:
    ticks  total  nonlib   name
-   3844   40.6%   41.9%  JavaScript
-   5315   56.1%   57.9%  C++
-    172    1.8%    1.9%  GC
-    294    3.1%          Shared libraries
+   3399   36.0%   37.0%  JavaScript
+   5059   53.6%   55.1%  C++
+    249    2.6%    2.7%  GC
+    267    2.8%          Shared libraries
 ```
  

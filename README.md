@@ -1,5 +1,7 @@
 # perf-quest
 
+> Focused on node 6x.
+
 ## Results
 
 - [Class and Classless](class-classless/#readme)

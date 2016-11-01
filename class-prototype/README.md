@@ -1,29 +1,38 @@
 ## Benchmark
  
 ```
-class
-Raw:
- > 158395.6043956044
- > 149362.63736263735
- > 160773.22677322678
- > 160985.01498501498
-Average (mean) 157379.1208791209
-
 prototype
 Raw:
- > 158010.989010989
- > 135127.87212787214
- > 160611.38861138863
- > 160589.4105894106
-Average (mean) 153584.9150849151
+ > 162181.81818181818
+ > 163516.4835164835
+ > 163171.82817182818
+ > 162651.34865134864
+Average (mean) 162880.36963036962
 
-Winner: class
-Compared with next highest (prototype), it's:
-2.41% faster
-1.02 times as fast
-0.01 order(s) of magnitude faster
+class
+Raw:
+ > 139810.1898101898
+ > 140198.8011988012
+ > 139901.0989010989
+ > 140025.97402597402
+Average (mean) 139984.015984016
+
+Winner: prototype
+Compared with next highest (class), it's:
+14.06% faster
+1.16 times as fast
+0.07 order(s) of magnitude faster
 A LITTLE FASTER
 
+```
+ 
+## Benchmark 2
+ 
+```
+class x 105,144,316 ops/sec ±1.06% (91 runs sampled)
+prototype x 107,131,846 ops/sec ±1.01% (92 runs sampled)
+Fastest is: prototype
+[Node.js 6.9.1 on Linux 64-bit]
 ```
  
 ## Profile summary
@@ -32,19 +41,19 @@ Tick-class
 ```
  [Summary]:
    ticks  total  nonlib   name
-   5713   60.5%   81.0%  JavaScript
-    625    6.6%    8.9%  C++
+   6221   65.3%   82.8%  JavaScript
+    528    5.5%    7.0%  C++
       8    0.1%    0.1%  GC
-   2387   25.3%          Shared libraries
+   2021   21.2%          Shared libraries
 ```
  
 Tick-prototype
 ```
  [Summary]:
    ticks  total  nonlib   name
-   5852   61.4%   82.9%  JavaScript
-    600    6.3%    8.5%  C++
-      7    0.1%    0.1%  GC
-   2474   26.0%          Shared libraries
+   6228   65.4%   84.3%  JavaScript
+    507    5.3%    6.9%  C++
+      5    0.1%    0.1%  GC
+   2140   22.5%          Shared libraries
 ```
  

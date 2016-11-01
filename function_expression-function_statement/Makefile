@@ -1,7 +1,5 @@
 bench: lint
 	npm run benchmark > out.txt
-	npm run benchmark > out.txt
-	npm run benchmark > out.txt
 	tail -n 23 out.txt > bench.txt
 	rm out.txt
 	npm run benchmark2 > bench2.txt
