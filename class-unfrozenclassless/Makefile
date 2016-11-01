@@ -4,6 +4,7 @@ bench: lint
 	npm run benchmark > out.txt
 	tail -n 23 out.txt > bench.txt
 	rm out.txt
+	npm run benchmark2 > bench2.txt
 	node --prof prof-class.js > /dev/null
 	node --prof-process *.log > out.txt
 	grep -A 5 "Summary" -R out.txt > tick-class.txt
@@ -16,6 +17,12 @@ bench: lint
 	echo ' ' >> README.md
 	echo '```' >> README.md
 	cat bench.txt >> README.md
+	echo '```' >> README.md
+	echo ' ' >> README.md
+	echo '## Benchmark 2' >> README.md
+	echo ' ' >> README.md
+	echo '```' >> README.md
+	tail -n 4 bench2.txt >> README.md
 	echo '```' >> README.md
 	echo ' ' >> README.md
 	echo '## Profile summary' >> README.md
