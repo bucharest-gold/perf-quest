@@ -10,3 +10,4 @@ all: .
 	make -C reduce-reduce_by_hand
 	make -C function_expression-function_statement
 	make -C class-module
+	make -C weakmap-symbol

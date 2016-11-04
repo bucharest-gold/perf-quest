@@ -15,11 +15,12 @@
 - [map and map by hand](map-map_by_hand/#readme)
 - [reduce and reduce by hand](reduce-reduce_by_hand/#readme)
 - [Function expression and function statement](function_expression-function_statement/#readme)
+- [WeakMap and Symbol](weakmap-symbol/#readme)
 
 ### How to push a test case
 
 - Create a new directory using the rule `foo-bar` or `function_foo-function_bar`
-- Create benchmark.js file and add your bench code.
+- Create benchmark.js and benchmark2.js files and add your bench code (look the other tests to get help).
 - Create a prof-foo.js and prof-bar.js and replicate the bench code from step 2.
 using as comparision, the same function call, like this:
 
@@ -38,3 +39,9 @@ exports.compare = {
 - Type `make` inside your test case directory.
 - Add the test case on Makefile located on project root directory.
 - To run all the tests type `make` from project root directory.
+
+## Benchmarks
+
+Benchmarks are notoriously a lot like statistics so take this with a grain of salt.
+Results from a simplified, non-scientific benchmark performed on a 
+Lenovo T440 Linux 4.8.4-1-ARCH x86_64. Your results may vary.
