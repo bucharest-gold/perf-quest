@@ -3,25 +3,25 @@
 ```
 mapByHand
 Raw:
- > 16277.722277722278
- > 16198.801198801199
- > 16268.731268731268
- > 16379.620379620379
-Average (mean) 16281.21878121878
+ > 15794.205794205795
+ > 16323.676323676324
+ > 15974.025974025973
+ > 15512.487512487513
+Average (mean) 15901.0989010989
 
 mapp
 Raw:
- > 536.4635364635365
- > 552.8942115768463
- > 549.4505494505495
- > 553.4465534465535
-Average (mean) 548.0637127343714
+ > 1593.4065934065934
+ > 1566.4335664335665
+ > 1592.4075924075923
+ > 1580.4195804195804
+Average (mean) 1583.1668331668332
 
 Winner: mapByHand
 Compared with next highest (mapp), it's:
-96.63% faster
-29.71 times as fast
-1.47 order(s) of magnitude faster
+90.04% faster
+10.04 times as fast
+1 order(s) of magnitude faster
 A LOT FASTER
 
 ```
@@ -29,10 +29,10 @@ A LOT FASTER
 ## Benchmark 2
  
 ```
-map x 496,684 ops/sec ±3.49% (84 runs sampled)
-mapByHand x 12,389,627 ops/sec ±6.60% (75 runs sampled)
+map x 1,524,011 ops/sec ±0.77% (90 runs sampled)
+mapByHand x 14,463,070 ops/sec ±0.93% (91 runs sampled)
 Fastest is: mapByHand
-[Node.js 6.9.1 on Linux 64-bit]
+[null]
 ```
  
 ## Profile summary
@@ -41,19 +41,19 @@ Tick-map
 ```
  [Summary]:
    ticks  total  nonlib   name
-   1395   14.7%   14.8%  JavaScript
-   7387   77.7%   78.2%  C++
-    237    2.5%    2.5%  GC
-     58    0.6%          Shared libraries
+   2678   28.6%   28.7%  JavaScript
+   5921   63.3%   63.5%  C++
+    246    2.6%    2.6%  GC
+     33    0.4%          Shared libraries
 ```
  
 Tick-map_by_hand
 ```
  [Summary]:
    ticks  total  nonlib   name
-   7839   83.1%   87.9%  JavaScript
-    526    5.6%    5.9%  C++
-    304    3.2%    3.4%  GC
-    524    5.6%          Shared libraries
+   7984   85.4%   87.5%  JavaScript
+    459    4.9%    5.0%  C++
+    289    3.1%    3.2%  GC
+    223    2.4%          Shared libraries
 ```
  

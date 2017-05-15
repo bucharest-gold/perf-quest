@@ -3,23 +3,23 @@
 ```
 statement
 Raw:
- > 164643.35664335664
- > 165392.6073926074
- > 165439.56043956045
- > 163105.8941058941
-Average (mean) 164645.35464535464
+ > 157321.6783216783
+ > 157156.84315684316
+ > 157931.06893106893
+ > 157659.34065934067
+Average (mean) 157517.23276723275
 
 expression
 Raw:
- > 160302.6973026973
- > 160202.7972027972
- > 160840.15984015985
- > 160652.34765234764
-Average (mean) 160499.5004995005
+ > 153456.54345654347
+ > 152061.93806193807
+ > 151914.0859140859
+ > 151771.22877122878
+Average (mean) 152300.94905094904
 
 Winner: statement
 Compared with next highest (expression), it's:
-2.52% faster
+3.31% faster
 1.03 times as fast
 0.01 order(s) of magnitude faster
 A LITTLE FASTER
@@ -29,10 +29,10 @@ A LITTLE FASTER
 ## Benchmark 2
  
 ```
-expression x 110,382,803 ops/sec ±1.39% (90 runs sampled)
-statement x 110,698,884 ops/sec ±1.09% (92 runs sampled)
-Fastest is: statement
-[Node.js 6.9.1 on Linux 64-bit]
+expression x 98,467,965 ops/sec ±0.91% (88 runs sampled)
+statement x 96,224,446 ops/sec ±1.04% (85 runs sampled)
+Fastest is: expression
+[null]
 ```
  
 ## Profile summary
@@ -41,19 +41,19 @@ Tick-function_expression
 ```
  [Summary]:
    ticks  total  nonlib   name
-   6224   65.5%   83.0%  JavaScript
-    497    5.2%    6.6%  C++
-      7    0.1%    0.1%  GC
-   2009   21.1%          Shared libraries
+   6522   69.5%   84.6%  JavaScript
+    365    3.9%    4.7%  C++
+      4    0.0%    0.1%  GC
+   1673   17.8%          Shared libraries
 ```
  
 Tick-function_statement
 ```
  [Summary]:
    ticks  total  nonlib   name
-   6226   66.0%   83.2%  JavaScript
-    586    6.2%    7.8%  C++
-      8    0.1%    0.1%  GC
-   1947   20.6%          Shared libraries
+   6534   69.7%   85.8%  JavaScript
+    405    4.3%    5.3%  C++
+      4    0.0%    0.1%  GC
+   1759   18.8%          Shared libraries
 ```
  

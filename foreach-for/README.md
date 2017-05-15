@@ -3,36 +3,36 @@
 ```
 for
 Raw:
- > 4.721435316336166
- > 4.921259842519685
- > 4.694835680751174
- > 4.587155963302752
-Average (mean) 4.731171700727444
+ > 4.672897196261682
+ > 4.545454545454546
+ > 4.84027105517909
+ > 4.616805170821792
+Average (mean) 4.668856991929277
 
 forEach
 Raw:
- > 0.06847439057792386
- > 0.06854479402289396
- > 0.06808742425274052
- > 0.06510416666666667
-Average (mean) 0.06755269388005625
+ > 0.6688963210702341
+ > 0.6605019815059445
+ > 0.6583278472679395
+ > 0.6544502617801047
+Average (mean) 0.6605441029060557
 
 Winner: for
 Compared with next highest (forEach), it's:
-98.57% faster
-70.04 times as fast
-1.85 order(s) of magnitude faster
-A LOT FASTER
+85.85% faster
+7.07 times as fast
+0.85 order(s) of magnitude faster
+QUITE A BIT FASTER
 
 ```
  
 ## Benchmark 2
  
 ```
-forEach x 68.21 ops/sec ±1.52% (68 runs sampled)
-for x 4,719 ops/sec ±0.93% (87 runs sampled)
+forEach x 652 ops/sec ±0.84% (89 runs sampled)
+for x 4,506 ops/sec ±0.94% (85 runs sampled)
 Fastest is: for
-[Node.js 6.9.1 on Linux 64-bit]
+[null]
 ```
  
 ## Profile summary
@@ -41,19 +41,19 @@ Tick-for
 ```
  [Summary]:
    ticks  total  nonlib   name
-  10373   99.1%   99.1%  JavaScript
-     83    0.8%    0.8%  C++
-      4    0.0%    0.0%  GC
-      7    0.1%          Shared libraries
+   9971   99.3%   99.3%  JavaScript
+     58    0.6%    0.6%  C++
+      1    0.0%    0.0%  GC
+      2    0.0%          Shared libraries
 ```
  
 Tick-foreach
 ```
  [Summary]:
    ticks  total  nonlib   name
-  15930    8.7%    8.7%  JavaScript
-  156835   85.7%   85.7%  C++
-    149    0.1%    0.1%  GC
-     10    0.0%          Shared libraries
+  13371   95.4%   95.4%  JavaScript
+     61    0.4%    0.4%  C++
+      2    0.0%    0.0%  GC
+      1    0.0%          Shared libraries
 ```
  

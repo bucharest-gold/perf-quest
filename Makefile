@@ -11,3 +11,4 @@ all: .
 	make -C function_expression-function_statement
 	make -C class-module
 	make -C weakmap-symbol
+	make -C object_assign-util_extend

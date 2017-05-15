@@ -3,36 +3,36 @@
 ```
 no_extra_hidden
 Raw:
- > 166136.86313686313
- > 165678.3216783217
- > 165150.84915084916
- > 165347.65234765236
-Average (mean) 165578.42157842158
+ > 166151.84815184816
+ > 156482.5174825175
+ > 156166.83316683318
+ > 155555.44455544456
+Average (mean) 158589.16083916085
 
 hidden
 Raw:
- > 44853.146853146856
- > 44624.37562437562
- > 44835.16483516483
- > 44641.35864135864
-Average (mean) 44738.51148851149
+ > 155446.55344655344
+ > 150092.9070929071
+ > 152978.02197802198
+ > 149158.84115884115
+Average (mean) 151919.0809190809
 
 Winner: no_extra_hidden
 Compared with next highest (hidden), it's:
-72.98% faster
-3.7 times as fast
-0.57 order(s) of magnitude faster
-QUITE A BIT FASTER
+4.21% faster
+1.04 times as fast
+0.02 order(s) of magnitude faster
+A LITTLE FASTER
 
 ```
  
 ## Benchmark 2
  
 ```
-hidden x 106,963,362 ops/sec ±1.11% (90 runs sampled)
-no_extra_hidden x 107,504,967 ops/sec ±1.04% (90 runs sampled)
-Fastest is: no_extra_hidden
-[Node.js 6.9.1 on Linux 64-bit]
+hidden x 94,371,755 ops/sec ±1.85% (88 runs sampled)
+no_extra_hidden x 94,745,086 ops/sec ±0.91% (91 runs sampled)
+Fastest is: no_extra_hidden,hidden
+[null]
 ```
  
 ## Profile summary
@@ -41,19 +41,19 @@ Tick-hidden
 ```
  [Summary]:
    ticks  total  nonlib   name
-   6291   67.4%   83.2%  JavaScript
-    611    6.5%    8.1%  C++
-      9    0.1%    0.1%  GC
-   1773   19.0%          Shared libraries
+   6536   69.7%   85.8%  JavaScript
+    398    4.2%    5.2%  C++
+      6    0.1%    0.1%  GC
+   1758   18.7%          Shared libraries
 ```
  
 Tick-no_extra_hidden
 ```
  [Summary]:
    ticks  total  nonlib   name
-   6558   69.9%   85.1%  JavaScript
-    459    4.9%    6.0%  C++
-      6    0.1%    0.1%  GC
-   1674   17.9%          Shared libraries
+   6623   70.7%   86.0%  JavaScript
+    406    4.3%    5.3%  C++
+      8    0.1%    0.1%  GC
+   1668   17.8%          Shared libraries
 ```
  

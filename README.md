@@ -1,6 +1,6 @@
 # perf-quest
 
-> Focused on node 6x.
+> Using the latest released version of Node.js.
 
 ## Results
 
