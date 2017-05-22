@@ -3,57 +3,35 @@
 ```
 statement
 Raw:
- > 157321.6783216783
- > 157156.84315684316
- > 157931.06893106893
- > 157659.34065934067
-Average (mean) 157517.23276723275
+ > 166251.74825174824
+ > 152104.8951048951
+ > 159343.65634365633
+ > 151496.5034965035
+Average (mean) 157299.2007992008
 
 expression
 Raw:
- > 153456.54345654347
- > 152061.93806193807
- > 151914.0859140859
- > 151771.22877122878
-Average (mean) 152300.94905094904
+ > 157080.9190809191
+ > 157118.8811188811
+ > 156147.85214785216
+ > 153887.1128871129
+Average (mean) 156058.6913086913
 
 Winner: statement
 Compared with next highest (expression), it's:
-3.31% faster
-1.03 times as fast
-0.01 order(s) of magnitude faster
-A LITTLE FASTER
+0.79% faster
+1.01 times as fast
+0 order(s) of magnitude faster
+BASICALLY THE SAME
 
 ```
  
 ## Benchmark 2
  
 ```
-expression x 98,467,965 ops/sec ±0.91% (88 runs sampled)
-statement x 96,224,446 ops/sec ±1.04% (85 runs sampled)
-Fastest is: expression
-[null]
-```
- 
-## Profile summary
- 
-Tick-function_expression
-```
- [Summary]:
-   ticks  total  nonlib   name
-   6522   69.5%   84.6%  JavaScript
-    365    3.9%    4.7%  C++
-      4    0.0%    0.1%  GC
-   1673   17.8%          Shared libraries
-```
- 
-Tick-function_statement
-```
- [Summary]:
-   ticks  total  nonlib   name
-   6534   69.7%   85.8%  JavaScript
-    405    4.3%    5.3%  C++
-      4    0.0%    0.1%  GC
-   1759   18.8%          Shared libraries
+
+expression x 97,168,468 ops/sec ±1.06% (90 runs sampled)
+statement x 97,763,650 ops/sec ±1.37% (90 runs sampled)
+Fastest is: statement,expression
 ```
  

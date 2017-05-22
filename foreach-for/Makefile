@@ -3,14 +3,7 @@ bench: lint
 	tail -n 23 out.txt > bench.txt
 	rm out.txt
 	npm run benchmark2 > bench2.txt
-	node --prof prof-for.js > /dev/null
-	node --prof-process *.log > out.txt
-	grep -A 5 "Summary" -R out.txt > tick-for.txt
-	rm *.log && rm out.txt
-	node --prof prof-foreach.js > /dev/null
-	node --prof-process *.log > out.txt
-	grep -A 5 "Summary" -R out.txt > tick-foreach.txt
-	rm *.log && rm out.txt && touch README.md && rm README.md
+	touch README.md && rm README.md
 	echo '## Benchmark' >> README.md
 	echo ' ' >> README.md
 	echo '```' >> README.md
@@ -21,18 +14,6 @@ bench: lint
 	echo ' ' >> README.md
 	echo '```' >> README.md
 	tail -n 4 bench2.txt >> README.md
-	echo '```' >> README.md
-	echo ' ' >> README.md
-	echo '## Profile summary' >> README.md
-	echo ' ' >> README.md
-	echo 'Tick-for' >> README.md
-	echo '```' >> README.md
-	cat tick-for.txt >> README.md
-	echo '```' >> README.md
-	echo ' ' >> README.md
-	echo 'Tick-foreach' >> README.md
-	echo '```' >> README.md
-	cat tick-foreach.txt >> README.md
 	echo '```' >> README.md
 	echo ' ' >> README.md
 	rm *.txt

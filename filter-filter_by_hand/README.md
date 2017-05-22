@@ -3,25 +3,25 @@
 ```
 filterByHand
 Raw:
- > 17075.924075924075
- > 17215.784215784217
- > 17061.93806193806
- > 16786.213786213786
-Average (mean) 17034.965034965033
+ > 16146.853146853147
+ > 16787.212787212786
+ > 16784.215784215783
+ > 16245.754245754246
+Average (mean) 16491.008991008992
 
 filterr
 Raw:
- > 1640.3596403596403
- > 1672.3276723276724
- > 1691.3086913086913
+ > 1569.4305694305694
  > 1592.4075924075923
-Average (mean) 1649.1008991008991
+ > 1688.3116883116884
+ > 1681.3186813186812
+Average (mean) 1632.8671328671328
 
 Winner: filterByHand
 Compared with next highest (filterr), it's:
-90.32% faster
-10.33 times as fast
-1.01 order(s) of magnitude faster
+90.1% faster
+10.1 times as fast
+1 order(s) of magnitude faster
 A LOT FASTER
 
 ```
@@ -29,31 +29,9 @@ A LOT FASTER
 ## Benchmark 2
  
 ```
-filterr x 1,631,328 ops/sec ±0.63% (92 runs sampled)
-filterByHand x 15,225,074 ops/sec ±0.88% (89 runs sampled)
+
+filterr x 1,573,626 ops/sec ±2.37% (86 runs sampled)
+filterByHand x 14,671,741 ops/sec ±1.51% (87 runs sampled)
 Fastest is: filterByHand
-[null]
-```
- 
-## Profile summary
- 
-Tick-filter
-```
- [Summary]:
-   ticks  total  nonlib   name
-   3280   35.0%   35.1%  JavaScript
-   5425   57.9%   58.1%  C++
-    369    3.9%    4.0%  GC
-     38    0.4%          Shared libraries
-```
- 
-Tick-filter_by_hand
-```
- [Summary]:
-   ticks  total  nonlib   name
-   7946   84.9%   87.0%  JavaScript
-    508    5.4%    5.6%  C++
-    309    3.3%    3.4%  GC
-    222    2.4%          Shared libraries
 ```
  

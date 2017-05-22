@@ -19,11 +19,8 @@ function extend () {
 const suite = new Benchmark.Suite();
 
 suite
-  .add('Assign', assign)
-  .add('Extend', extend)
-  .on('cycle', (event) => console.log(String(event.target)))
-  .on('complete', () => {
-    console.log(`Fastest is: ${suite.filter('fastest').map('name')}`);
-    console.log(`[${Benchmark.platform.description}]`);
-  })
-  .run();
+.add('Assign', assign)
+.add('Extend', extend)
+.on('cycle', (event) => console.log(String(event.target)))
+.on('complete', () => console.log(`Fastest is: ${suite.filter('fastest').map('name')}`))
+.run();

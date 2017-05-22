@@ -3,25 +3,25 @@
 ```
 reducee
 Raw:
- > 7946.053946053946
- > 7805.194805194805
- > 7785.2147852147855
- > 7934.065934065934
-Average (mean) 7867.632367632367
+ > 7857.142857142857
+ > 7994.005994005994
+ > 7635.364635364635
+ > 7950.04995004995
+Average (mean) 7859.140859140859
 
 reduceByHand
 Raw:
- > 6780.219780219781
- > 6664.335664335665
- > 6519.480519480519
- > 6754.245754245754
-Average (mean) 6679.570429570429
+ > 6250.749250749251
+ > 6669.3306693306695
+ > 6728.2717282717285
+ > 6172.827172827173
+Average (mean) 6455.294705294705
 
 Winner: reducee
 Compared with next highest (reduceByHand), it's:
-15.1% faster
-1.18 times as fast
-0.07 order(s) of magnitude faster
+17.86% faster
+1.22 times as fast
+0.09 order(s) of magnitude faster
 A LITTLE FASTER
 
 ```
@@ -29,31 +29,9 @@ A LITTLE FASTER
 ## Benchmark 2
  
 ```
-reduce x 6,932,332 ops/sec ±0.83% (90 runs sampled)
-reduceByHand x 6,288,599 ops/sec ±0.90% (88 runs sampled)
+
+reduce x 7,323,182 ops/sec ±1.10% (88 runs sampled)
+reduceByHand x 6,174,494 ops/sec ±1.47% (84 runs sampled)
 Fastest is: reduce
-[null]
-```
- 
-## Profile summary
- 
-Tick-reduce
-```
- [Summary]:
-   ticks  total  nonlib   name
-   7870   84.0%   85.0%  JavaScript
-    719    7.7%    7.8%  C++
-    618    6.6%    6.7%  GC
-    105    1.1%          Shared libraries
-```
- 
-Tick-reduce_by_hand
-```
- [Summary]:
-   ticks  total  nonlib   name
-   8905   95.3%   95.9%  JavaScript
-    184    2.0%    2.0%  C++
-      1    0.0%    0.0%  GC
-     67    0.7%          Shared libraries
 ```
  

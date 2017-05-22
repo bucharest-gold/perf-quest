@@ -3,14 +3,7 @@ bench: lint
 	tail -n 23 out.txt > bench.txt
 	rm out.txt
 	npm run benchmark2 > bench2.txt
-	node --prof prof-foo.js > /dev/null <--Here you need to add your prof-foo.js
-	node --prof-process *.log > out.txt
-	grep -A 5 "Summary" -R out.txt > tick-foo.txt <--Here you name the file like tick-foo.txt
-	rm *.log && rm out.txt
-	node --prof prof-bar.js > /dev/null <--Here you need to add your prof-bar.js
-	node --prof-process *.log > out.txt
-	grep -A 5 "Summary" -R out.txt > tick-bar.txt <--Here you name the file like tick-bar.txt
-	rm *.log && rm out.txt && touch README.md && rm README.md
+	touch README.md && rm README.md
 	echo '## Benchmark' >> README.md
 	echo ' ' >> README.md
 	echo '```' >> README.md
@@ -21,18 +14,6 @@ bench: lint
 	echo ' ' >> README.md
 	echo '```' >> README.md
 	tail -n 4 bench2.txt >> README.md
-	echo '```' >> README.md
-	echo ' ' >> README.md
-	echo '## Profile summary' >> README.md
-	echo ' ' >> README.md
-	echo 'Tick-foo' >> README.md <--Here you need to change
-	echo '```' >> README.md
-	cat tick-foo.txt >> README.md <--Here you need to change
-	echo '```' >> README.md
-	echo ' ' >> README.md
-	echo 'Tick-bar' >> README.md <--Here you need to change
-	echo '```' >> README.md
-	cat tick-bar.txt >> README.md <--Here you need to change
 	echo '```' >> README.md
 	echo ' ' >> README.md
 	rm *.txt

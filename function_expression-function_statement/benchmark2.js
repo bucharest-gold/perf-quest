@@ -16,8 +16,5 @@ suite
 .add('expression', foo)
 .add('statement', bar)
 .on('cycle', (event) => console.log(String(event.target)))
-.on('complete', () => {
-  console.log(`Fastest is: ${suite.filter('fastest').map('name')}`);
-  console.log(`[${Benchmark.platform.description}]`);
-})
+.on('complete', () => console.log(`Fastest is: ${suite.filter('fastest').map('name')}`))
 .run();

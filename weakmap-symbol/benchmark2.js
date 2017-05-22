@@ -40,11 +40,8 @@ function b () {
 }
 
 suite
-  .add('WeakMap', a)
-  .add('Symbol', b)
-  .on('cycle', (event) => console.log(String(event.target)))
-  .on('complete', () => {
-    console.log(`Fastest is: ${suite.filter('fastest').map('name')}`);
-    console.log(`[${Benchmark.platform.description}]`);
-  })
-  .run();
+.add('WeakMap', a)
+.add('Symbol', b)
+.on('cycle', (event) => console.log(String(event.target)))
+.on('complete', () => console.log(`Fastest is: ${suite.filter('fastest').map('name')}`))
+.run();
