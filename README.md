@@ -24,8 +24,9 @@
 - Create benchmark.js and benchmark2.js files and add your bench code (look the other tests to get help).
 - Copy Makefile.example from the root directory, rename it to Makefile.
 - Type `make` inside your test case directory.
-- Add the test case on Makefile located on project root directory.
-- To run all the tests type `make` from project root directory.
+
+
+> To run all the tests type `make` from project root directory.
 
 ## Benchmarks
 
