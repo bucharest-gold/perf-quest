@@ -3,25 +3,25 @@
 ```
 reducee
 Raw:
- > 7857.142857142857
- > 7994.005994005994
- > 7635.364635364635
- > 7950.04995004995
-Average (mean) 7859.140859140859
+ > 8084.915084915085
+ > 7828.171828171829
+ > 7758.241758241758
+ > 7762.237762237763
+Average (mean) 7858.391608391608
 
 reduceByHand
 Raw:
- > 6250.749250749251
- > 6669.3306693306695
- > 6728.2717282717285
- > 6172.827172827173
-Average (mean) 6455.294705294705
+ > 6865.134865134865
+ > 6891.108891108891
+ > 6913.086913086913
+ > 6688.311688311688
+Average (mean) 6839.41058941059
 
 Winner: reducee
 Compared with next highest (reduceByHand), it's:
-17.86% faster
-1.22 times as fast
-0.09 order(s) of magnitude faster
+12.97% faster
+1.15 times as fast
+0.06 order(s) of magnitude faster
 A LITTLE FASTER
 
 ```
@@ -30,8 +30,8 @@ A LITTLE FASTER
  
 ```
 
-reduce x 7,323,182 ops/sec ±1.10% (88 runs sampled)
-reduceByHand x 6,174,494 ops/sec ±1.47% (84 runs sampled)
+reduce x 7,070,316 ops/sec ±0.45% (90 runs sampled)
+reduceByHand x 6,538,511 ops/sec ±0.79% (90 runs sampled)
 Fastest is: reduce
 ```
  
