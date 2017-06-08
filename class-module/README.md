@@ -3,25 +3,25 @@
 ```
 class
 Raw:
- > 43733.26673326673
- > 42765.23476523477
- > 42108.89110889111
- > 42638.36163836164
-Average (mean) 42811.43856143856
+ > 42592.407592407595
+ > 44750.24975024975
+ > 44804.195804195806
+ > 44699.3006993007
+Average (mean) 44211.53846153847
 
 module
 Raw:
- > 13260.739260739261
- > 12772.227772227772
- > 13056.943056943057
- > 12937.062937062938
-Average (mean) 13006.743256743257
+ > 13273.726273726274
+ > 12387.612387612387
+ > 11838.161838161837
+ > 12615.768463073853
+Average (mean) 12528.817240643588
 
 Winner: class
 Compared with next highest (module), it's:
-69.62% faster
-3.29 times as fast
-0.52 order(s) of magnitude faster
+71.66% faster
+3.53 times as fast
+0.55 order(s) of magnitude faster
 QUITE A BIT FASTER
 
 ```
@@ -30,8 +30,8 @@ QUITE A BIT FASTER
  
 ```
 
-class x 32,344,971 ops/sec ±0.78% (86 runs sampled)
-module x 11,451,970 ops/sec ±0.92% (90 runs sampled)
+class x 33,000,064 ops/sec ±1.10% (89 runs sampled)
+module x 10,848,886 ops/sec ±1.40% (91 runs sampled)
 Fastest is: class
 ```
  

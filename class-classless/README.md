@@ -3,25 +3,25 @@
 ```
 class
 Raw:
- > 40827.17282717283
- > 42510.48951048951
- > 42987.01298701299
- > 40773.22677322677
-Average (mean) 41774.47552447552
+ > 41708.291708291705
+ > 43549.45054945055
+ > 43080.919080919084
+ > 42612.38761238761
+Average (mean) 42737.76223776223
 
 classless
 Raw:
- > 9028.97102897103
- > 8729.27072927073
- > 8746.253746253746
- > 8746.253746253746
-Average (mean) 8812.687312687312
+ > 8977.022977022976
+ > 8677.322677322678
+ > 8775.224775224775
+ > 8384.615384615385
+Average (mean) 8703.546453546454
 
 Winner: class
 Compared with next highest (classless), it's:
-78.9% faster
-4.74 times as fast
-0.68 order(s) of magnitude faster
+79.63% faster
+4.91 times as fast
+0.69 order(s) of magnitude faster
 QUITE A BIT FASTER
 
 ```
@@ -30,8 +30,8 @@ QUITE A BIT FASTER
  
 ```
 
-class x 33,165,769 ops/sec ±0.92% (88 runs sampled)
-classless x 7,959,816 ops/sec ±0.87% (87 runs sampled)
+class x 32,279,950 ops/sec ±1.87% (88 runs sampled)
+classless x 7,691,685 ops/sec ±1.30% (91 runs sampled)
 Fastest is: class
 ```
  

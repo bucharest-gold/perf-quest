@@ -3,24 +3,24 @@
 ```
 prototype
 Raw:
- > 134150.84915084916
- > 154983.01698301698
- > 152766.23376623375
- > 157730.26973026973
-Average (mean) 149907.5924075924
+ > 134247.75224775224
+ > 141242.75724275724
+ > 155380.61938061938
+ > 159573.42657342658
+Average (mean) 147611.13886113887
 
 class
 Raw:
- > 43225.77422577423
- > 41364.63536463537
- > 42178.82117882118
- > 42929.07092907093
-Average (mean) 42424.57542457543
+ > 42042.957042957045
+ > 40829.17082917083
+ > 42952.04795204795
+ > 40531.468531468534
+Average (mean) 41588.91108891109
 
 Winner: prototype
 Compared with next highest (class), it's:
-71.7% faster
-3.53 times as fast
+71.83% faster
+3.55 times as fast
 0.55 order(s) of magnitude faster
 QUITE A BIT FASTER
 
@@ -30,8 +30,8 @@ QUITE A BIT FASTER
  
 ```
 
-class x 32,412,530 ops/sec ±1.47% (88 runs sampled)
-prototype x 86,562,889 ops/sec ±1.20% (91 runs sampled)
+class x 31,408,703 ops/sec ±2.13% (86 runs sampled)
+prototype x 87,223,412 ops/sec ±1.64% (90 runs sampled)
 Fastest is: prototype
 ```
  
