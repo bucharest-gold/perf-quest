@@ -3,25 +3,25 @@
 ```
 Symbol
 Raw:
- > 41591.40859140859
- > 26847.152847152847
- > 37511.48851148851
- > 40005.994005994005
-Average (mean) 36489.01098901099
+ > 36404.595404595406
+ > 38344.655344655344
+ > 38614.38561438562
+ > 36695.304695304694
+Average (mean) 37514.73526473527
 
 WeakMap
 Raw:
- > 1692.3076923076924
- > 883.8141025641025
- > 1256.7432567432568
- > 1428.0155642023346
-Average (mean) 1315.2201539543466
+ > 1753.2467532467533
+ > 558.8673621460507
+ > 1535.3053435114505
+ > 1506.5913370998117
+Average (mean) 1338.5026990010165
 
 Winner: Symbol
 Compared with next highest (WeakMap), it's:
-96.4% faster
-27.74 times as fast
-1.44 order(s) of magnitude faster
+96.43% faster
+28.03 times as fast
+1.45 order(s) of magnitude faster
 A LOT FASTER
 
 ```
@@ -30,8 +30,8 @@ A LOT FASTER
  
 ```
 
-WeakMap x 1,148,540 ops/sec ±37.89% (34 runs sampled)
-Symbol x 31,557,936 ops/sec ±1.09% (92 runs sampled)
+WeakMap x 1,121,780 ops/sec ±36.53% (39 runs sampled)
+Symbol x 28,453,273 ops/sec ±14.52% (90 runs sampled)
 Fastest is: Symbol
 ```
  

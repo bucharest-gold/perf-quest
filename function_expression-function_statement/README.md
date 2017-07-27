@@ -1,28 +1,28 @@
 ## Benchmark
  
 ```
-expression
-Raw:
- > 151218.78121878122
- > 156710.2897102897
- > 153238.76123876125
- > 150966.03396603395
-Average (mean) 153033.46653346653
-
 statement
 Raw:
- > 148063.93606393607
- > 149070.92907092907
- > 149350.64935064936
- > 153082.9170829171
-Average (mean) 149892.1078921079
+ > 150770.22977022978
+ > 142249.75024975024
+ > 141020.97902097902
+ > 151008.991008991
+Average (mean) 146262.4875124875
 
-Winner: expression
-Compared with next highest (statement), it's:
-2.05% faster
-1.02 times as fast
-0.01 order(s) of magnitude faster
-A LITTLE FASTER
+expression
+Raw:
+ > 153822.17782217782
+ > 130016.98301698302
+ > 148018.98101898102
+ > 151999.000999001
+Average (mean) 145964.2857142857
+
+Winner: statement
+Compared with next highest (expression), it's:
+0.2% faster
+1 times as fast
+0 order(s) of magnitude faster
+BASICALLY THE SAME
 
 ```
  
@@ -30,8 +30,8 @@ A LITTLE FASTER
  
 ```
 
-expression x 89,403,265 ops/sec ±1.46% (90 runs sampled)
-statement x 88,876,578 ops/sec ±1.29% (90 runs sampled)
-Fastest is: expression,statement
+expression x 90,545,299 ops/sec ±1.52% (90 runs sampled)
+statement x 88,227,043 ops/sec ±1.13% (91 runs sampled)
+Fastest is: expression
 ```
  

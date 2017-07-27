@@ -3,26 +3,26 @@
 ```
 no_extra_hidden
 Raw:
- > 156805.1948051948
- > 150236.76323676325
- > 155307.6923076923
- > 154846.15384615384
-Average (mean) 154298.95104895104
+ > 157621.37862137862
+ > 154741.25874125873
+ > 156237.76223776225
+ > 135421.57842157842
+Average (mean) 151005.49450549448
 
 hidden
 Raw:
- > 150538.46153846153
- > 147193.8061938062
- > 151470.52947052947
- > 153238.76123876125
-Average (mean) 150610.3896103896
+ > 44870.12987012987
+ > 44205.794205794205
+ > 42954.045954045956
+ > 41991.00899100899
+Average (mean) 43505.244755244756
 
 Winner: no_extra_hidden
 Compared with next highest (hidden), it's:
-2.39% faster
-1.02 times as fast
-0.01 order(s) of magnitude faster
-A LITTLE FASTER
+71.19% faster
+3.47 times as fast
+0.54 order(s) of magnitude faster
+QUITE A BIT FASTER
 
 ```
  
@@ -30,8 +30,8 @@ A LITTLE FASTER
  
 ```
 
-hidden x 85,267,450 ops/sec ±1.55% (87 runs sampled)
-no_extra_hidden x 84,510,581 ops/sec ±1.22% (90 runs sampled)
-Fastest is: hidden
+hidden x 77,270,479 ops/sec ±3.53% (81 runs sampled)
+no_extra_hidden x 78,169,161 ops/sec ±2.76% (81 runs sampled)
+Fastest is: no_extra_hidden,hidden
 ```
  

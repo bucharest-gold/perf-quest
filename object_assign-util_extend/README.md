@@ -3,24 +3,24 @@
 ```
 Extend
 Raw:
- > 7203.796203796203
- > 7136.863136863137
- > 7041.958041958042
- > 7263.736263736264
-Average (mean) 7161.588411588412
+ > 7210.789210789211
+ > 7011.988011988012
+ > 6858.141858141858
+ > 7165.834165834166
+Average (mean) 7061.688311688312
 
 Assign
 Raw:
- > 5661.338661338661
- > 5702.297702297702
- > 5935.064935064935
- > 6091.908091908092
-Average (mean) 5847.652347652348
+ > 5743.256743256743
+ > 5720.27972027972
+ > 5646.353646353647
+ > 5627.372627372627
+Average (mean) 5684.315684315685
 
 Winner: Extend
 Compared with next highest (Assign), it's:
-18.35% faster
-1.22 times as fast
+19.5% faster
+1.24 times as fast
 0.09 order(s) of magnitude faster
 A LITTLE FASTER
 
@@ -30,7 +30,7 @@ A LITTLE FASTER
  
 ```
 
-Assign x 5,316,857 ops/sec ±1.30% (90 runs sampled)
-Extend x 6,398,186 ops/sec ±1.86% (90 runs sampled)
+Assign x 5,320,715 ops/sec ±0.80% (87 runs sampled)
+Extend x 6,181,248 ops/sec ±0.76% (92 runs sampled)
 Fastest is: Extend
  
