@@ -3,26 +3,26 @@
 ```
 named
 Raw:
- > 970.0299700299701
- > 941.0589410589411
- > 952.0479520479521
- > 946.0539460539461
-Average (mean) 952.2977022977024
+ > 1757.2427572427573
+ > 1768.2317682317682
+ > 1784.2157842157842
+ > 1785.2147852147853
+Average (mean) 1773.7262737262738
 
 arrow
 Raw:
- > 922.077922077922
- > 906.0939060939061
- > 947.052947052947
- > 920.07992007992
-Average (mean) 923.8261738261738
+ > 1762.2377622377621
+ > 1748.2517482517483
+ > 1761.2387612387613
+ > 1761.2387612387613
+Average (mean) 1758.2417582417581
 
 Winner: named
 Compared with next highest (arrow), it's:
-2.99% faster
-1.03 times as fast
-0.01 order(s) of magnitude faster
-A LITTLE FASTER
+0.87% faster
+1.01 times as fast
+0 order(s) of magnitude faster
+BASICALLY THE SAME
 
 ```
  
@@ -30,8 +30,8 @@ A LITTLE FASTER
  
 ```
 
-named x 887,394 ops/sec ±1.91% (86 runs sampled)
-arrow x 918,681 ops/sec ±0.72% (89 runs sampled)
-Fastest is: arrow
+named x 1,655,881 ops/sec ±1.41% (86 runs sampled)
+arrow x 1,654,303 ops/sec ±1.10% (86 runs sampled)
+Fastest is: arrow,named
 ```
  
