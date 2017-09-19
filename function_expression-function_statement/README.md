@@ -3,25 +3,25 @@
 ```
 expression
 Raw:
- > 142374.62537462538
- > 142592.4075924076
- > 140986.01398601398
- > 142584.41558441558
-Average (mean) 142134.36563436562
+ > 186350.64935064936
+ > 178585.41458541458
+ > 178386.61338661338
+ > 178510.4895104895
+Average (mean) 180458.2917082917
 
 statement
 Raw:
- > 139696.3036963037
- > 141221.77822177822
- > 142361.63836163835
- > 142152.84715284716
-Average (mean) 141358.14185814187
+ > 181428.57142857142
+ > 177958.04195804195
+ > 176562.43756243755
+ > 176879.1208791209
+Average (mean) 178207.04295704296
 
 Winner: expression
 Compared with next highest (statement), it's:
-0.55% faster
+1.25% faster
 1.01 times as fast
-0 order(s) of magnitude faster
+0.01 order(s) of magnitude faster
 BASICALLY THE SAME
 
 ```
@@ -30,8 +30,8 @@ BASICALLY THE SAME
  
 ```
 
-expression x 460,346,521 ops/sec ±0.68% (82 runs sampled)
-statement x 465,537,021 ops/sec ±0.73% (85 runs sampled)
-Fastest is: statement
+expression x 585,534,478 ops/sec ±0.87% (90 runs sampled)
+statement x 587,901,284 ops/sec ±0.83% (88 runs sampled)
+Fastest is: statement,expression
 ```
  

@@ -3,26 +3,26 @@
 ```
 filterByHand
 Raw:
- > 17656.343656343655
- > 17217.782217782216
- > 17294.705294705294
- > 17179.82017982018
-Average (mean) 17337.162837162836
+ > 30897.102897102897
+ > 29814.185814185814
+ > 30707.29270729271
+ > 29727.272727272728
+Average (mean) 30286.46353646354
 
 filterr
 Raw:
- > 2199.8001998001996
- > 2236.763236763237
- > 2229.77022977023
- > 2180.819180819181
-Average (mean) 2211.788211788212
+ > 2549.4505494505493
+ > 2608.3916083916083
+ > 2612.3876123876125
+ > 2512.4875124875125
+Average (mean) 2570.679320679321
 
 Winner: filterByHand
 Compared with next highest (filterr), it's:
-87.24% faster
-7.84 times as fast
-0.89 order(s) of magnitude faster
-QUITE A BIT FASTER
+91.51% faster
+11.78 times as fast
+1.07 order(s) of magnitude faster
+A LOT FASTER
 
 ```
  
@@ -30,8 +30,8 @@ QUITE A BIT FASTER
  
 ```
 
-filterr x 1,988,327 ops/sec ±1.22% (84 runs sampled)
-filterByHand x 10,276,716 ops/sec ±1.19% (85 runs sampled)
+filterr x 2,737,907 ops/sec ±0.47% (88 runs sampled)
+filterByHand x 19,671,238 ops/sec ±0.81% (85 runs sampled)
 Fastest is: filterByHand
 ```
  

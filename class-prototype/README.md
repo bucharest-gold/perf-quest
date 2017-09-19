@@ -1,25 +1,25 @@
 ## Benchmark
  
 ```
-class
-Raw:
- > 190578.42157842158
- > 189859.14085914087
- > 190677.32267732266
- > 189480.5194805195
-Average (mean) 190148.85114885116
-
 prototype
 Raw:
- > 189259.74025974027
- > 189083.9160839161
- > 188629.37062937062
- > 187608.3916083916
-Average (mean) 188645.35464535467
+ > 187177.82217782218
+ > 188029.97002997002
+ > 187130.86913086913
+ > 180997.002997003
+Average (mean) 185833.9160839161
 
-Winner: class
-Compared with next highest (prototype), it's:
-0.79% faster
+class
+Raw:
+ > 185598.4015984016
+ > 186198.8011988012
+ > 187660.33966033967
+ > 180103.8961038961
+Average (mean) 184890.35964035965
+
+Winner: prototype
+Compared with next highest (class), it's:
+0.51% faster
 1.01 times as fast
 0 order(s) of magnitude faster
 BASICALLY THE SAME
@@ -30,8 +30,8 @@ BASICALLY THE SAME
  
 ```
 
-class x 502,330,273 ops/sec ±22.43% (95 runs sampled)
-prototype x 489,300,746 ops/sec ±26.31% (82 runs sampled)
+class x 489,321,669 ops/sec ±23.90% (89 runs sampled)
+prototype x 478,974,951 ops/sec ±28.37% (76 runs sampled)
 Fastest is: class,prototype
 ```
  

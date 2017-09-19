@@ -3,25 +3,25 @@
 ```
 mapByHand
 Raw:
- > 16958.04195804196
- > 17318.68131868132
- > 17660.33966033966
- > 17683.316683316683
-Average (mean) 17405.094905094906
+ > 29484.515484515483
+ > 29985.014985014986
+ > 29795.204795204794
+ > 29790.20979020979
+Average (mean) 29763.736263736264
 
 mapp
 Raw:
- > 2314.6853146853146
- > 2460.5394605394604
- > 2428.5714285714284
- > 2359.6403596403597
-Average (mean) 2390.859140859141
+ > 3234.7652347652347
+ > 3245.754245754246
+ > 3252.747252747253
+ > 3251.7482517482517
+Average (mean) 3246.253746253746
 
 Winner: mapByHand
 Compared with next highest (mapp), it's:
-86.26% faster
-7.28 times as fast
-0.86 order(s) of magnitude faster
+89.09% faster
+9.17 times as fast
+0.96 order(s) of magnitude faster
 QUITE A BIT FASTER
 
 ```
@@ -30,8 +30,8 @@ QUITE A BIT FASTER
  
 ```
 
-map x 2,145,133 ops/sec ±1.22% (85 runs sampled)
-mapByHand x 10,275,116 ops/sec ±1.33% (81 runs sampled)
+map x 2,948,475 ops/sec ±0.58% (92 runs sampled)
+mapByHand x 19,923,250 ops/sec ±1.13% (91 runs sampled)
 Fastest is: mapByHand
 ```
  

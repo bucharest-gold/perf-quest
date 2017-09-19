@@ -3,25 +3,25 @@
 ```
 for
 Raw:
- > 19.41747572815534
- > 19.305019305019304
- > 19.120458891013385
- > 19.286403085824492
-Average (mean) 19.282339252503128
+ > 22.615535889872174
+ > 22.682445759368836
+ > 22.571148184494604
+ > 22.86282306163022
+Average (mean) 22.68298822384146
 
 forEach
 Raw:
- > 0.7575757575757576
- > 0.75642965204236
- > 0.7633587786259542
- > 0.757002271006813
-Average (mean) 0.7585916148127212
+ > 1.0224948875255624
+ > 1.0335917312661498
+ > 1.0183299389002036
+ > 1.0204081632653061
+Average (mean) 1.0237061802393055
 
 Winner: for
 Compared with next highest (forEach), it's:
-96.07% faster
-25.42 times as fast
-1.41 order(s) of magnitude faster
+95.49% faster
+22.16 times as fast
+1.35 order(s) of magnitude faster
 A LOT FASTER
 
 ```
@@ -30,8 +30,8 @@ A LOT FASTER
  
 ```
 
-forEach x 759 ops/sec ±0.38% (87 runs sampled)
-for x 19,106 ops/sec ±0.40% (85 runs sampled)
+forEach x 1,019 ops/sec ±0.73% (93 runs sampled)
+for x 22,750 ops/sec ±0.75% (96 runs sampled)
 Fastest is: for
 ```
  
