@@ -1,25 +1,25 @@
 ## Benchmark
  
 ```
-named
-Raw:
- > 2566.4335664335663
- > 2544.4555444555444
- > 2559.4405594405594
- > 2549.4505494505493
-Average (mean) 2554.945054945055
-
 arrow
 Raw:
- > 2549.4505494505493
- > 2533.4665334665333
- > 2536.4635364635365
- > 2527.4725274725274
-Average (mean) 2536.713286713287
+ > 1612.3876123876123
+ > 1180.819180819181
+ > 1713.2867132867134
+ > 1602.3976023976024
+Average (mean) 1527.222777222777
 
-Winner: named
-Compared with next highest (arrow), it's:
-0.71% faster
+named
+Raw:
+ > 1700.2997002997004
+ > 1579.2622133599202
+ > 1796.2037962037962
+ > 999.000999000999
+Average (mean) 1518.691677216104
+
+Winner: arrow
+Compared with next highest (named), it's:
+0.56% faster
 1.01 times as fast
 0 order(s) of magnitude faster
 BASICALLY THE SAME
@@ -30,8 +30,8 @@ BASICALLY THE SAME
  
 ```
 
-named x 2,275,507 ops/sec ±0.58% (91 runs sampled)
-arrow x 2,260,201 ops/sec ±0.71% (92 runs sampled)
+named x 1,566,357 ops/sec ±4.80% (72 runs sampled)
+arrow x 1,442,779 ops/sec ±4.44% (73 runs sampled)
 Fastest is: named
 ```
  

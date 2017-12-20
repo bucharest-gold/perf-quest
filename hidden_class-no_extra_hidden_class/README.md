@@ -1,28 +1,28 @@
 ## Benchmark
  
 ```
-no_extra_hidden
-Raw:
- > 176023.97602397602
- > 181766.23376623375
- > 179797.2027972028
- > 180695.3046953047
-Average (mean) 179570.67932067934
-
 hidden
 Raw:
- > 166916.0839160839
- > 179519.4805194805
- > 180581.41858141858
- > 181189.8101898102
-Average (mean) 177051.6983016983
+ > 100822.17782217782
+ > 140276.72327672326
+ > 157269.73026973027
+ > 157880.1198801199
+Average (mean) 139062.18781218783
 
-Winner: no_extra_hidden
-Compared with next highest (hidden), it's:
-1.4% faster
-1.01 times as fast
-0.01 order(s) of magnitude faster
-BASICALLY THE SAME
+no_extra_hidden
+Raw:
+ > 58250.74925074925
+ > 98804.1958041958
+ > 157837.16283716285
+ > 158512.4875124875
+Average (mean) 118351.14885114886
+
+Winner: hidden
+Compared with next highest (no_extra_hidden), it's:
+14.89% faster
+1.17 times as fast
+0.07 order(s) of magnitude faster
+A LITTLE FASTER
 
 ```
  
@@ -30,8 +30,8 @@ BASICALLY THE SAME
  
 ```
 
-hidden x 530,001,392 ops/sec ±12.41% (89 runs sampled)
-no_extra_hidden x 554,301,261 ops/sec ±0.95% (92 runs sampled)
-Fastest is: no_extra_hidden
+hidden x 375,085,286 ops/sec ±16.86% (78 runs sampled)
+no_extra_hidden x 325,525,777 ops/sec ±59.14% (87 runs sampled)
+Fastest is: hidden
 ```
  
